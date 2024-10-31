@@ -158,11 +158,9 @@ void movement(void){
 	old_x = GenericBoxGuy.x;
 	
 	if(generic_pad & PAD_LEFT){
-		direction = LEFT;
 		hero_velocity_x = -SPEED;
 	}
 	else if (generic_pad & PAD_RIGHT){
-		direction = RIGHT;
 		hero_velocity_x = SPEED;
 	}
 	else { // nothing pressed

@@ -27,7 +27,6 @@ unsigned char eject_L; // from the left
 unsigned char eject_R; // remember these from the collision sub routine
 unsigned char eject_D; // from below
 unsigned char eject_U; // from up
-unsigned char direction; //facing left or right?
 #define LEFT 0
 #define RIGHT 1
 
